@@ -17,6 +17,7 @@ $(document).ready(function(){
         console.log('hei')
         
         $(getdropdowncontainer).toggle(brstoggledpd);
+        
 
         $(getcommtydpd).click(function(){
             $(getdropdowncontainer).css('display','none')

@@ -82,11 +82,14 @@ h2{
 
     position: relative;
 
+
     display: none;
 }
 
 .togl{
     display: block;
+
+
 }
 
 
@@ -219,6 +222,8 @@ h2{
     position: absolute;
     left: 1100px;
     top: 50px;
+
+    
 
 }
 
@@ -613,6 +618,25 @@ fieldset{
     padding: 15px;
 }
 
+
+.d-grid:hover .fa-angle-right{
+    animation: angleani .9s linear infinite;
+    /* color: blue; */
+    /* transform:translate(100%) ; */
+
+    
+}
+
+@keyframes angleani {
+    form{
+     transform: translate(0);
+
+    }
+    to{
+     transform:translate(100%) ;
+
+    }
+}
 .libnvot{
     margin-top: 20px;
 }
